@@ -37,7 +37,7 @@ Overall, the backend plays a crucial role in providing a robust and secure backe
 
 - Create a New Player
 
- *POST /players: Creates a new player. Requires authentication (auth middleware).*
+  *POST /players: Creates a new player. Requires authentication (auth middleware).*
 
 - Get Players
 
