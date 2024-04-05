@@ -6,10 +6,6 @@ import {auth} from "../middleware/authHandler.js";
 // Create a new router instance
 const router = express.Router()
 
-// router.get("/", function (request, response) {
-//     response.send("🙋‍♂️, 🌏 🎊✨🤩Welcome");
-//   });
-
   
 // Route to handle POST requests for creating a new player
 router.post("/",auth,async function(request,response){
