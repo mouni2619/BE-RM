@@ -19,7 +19,7 @@ Overall, the backend plays a crucial role in providing a robust and secure backe
 ## API Endpoints
 - User Registration
 
-  *POST /register: Registers a new user with a username, email, and password. Checks if the email already exists in the database and 
+  **POST /register:** *Registers a new user with a username, email, and password. Checks if the email already exists in the database and 
   generates a hashed password before creating the user.*
 
 - User Login
